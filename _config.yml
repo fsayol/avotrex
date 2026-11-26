@@ -1,0 +1,24 @@
+title: AVOTREX
+description: A global dataset of extinct birds and their traits
+theme: jekyll-theme-cayman
+
+# Version shown on the site and loaded by the species browser.
+# Update both when you publish a new release (see RELEASING.md).
+latest_version: "1.0"
+latest_data: data/v1.0/Avotrex_traits_v1.csv
+latest_dir: data/v1.0
+
+# Links used across the pages (edit once here)
+paper_doi: https://doi.org/10.1111/geb.13927
+dryad_doi: https://doi.org/10.5061/dryad.zgmsbcckk
+zenodo_doi: ""          # fill in after the first Zenodo-archived release
+rpackage_url: https://doi.org/10.32614/CRAN.package.avotrex
+error_form_url: ""      # optional Google Form for people without a GitHub account
+contact_email: ferran.sayol@uvic.cat
+
+exclude:
+  - README.md
+  - RELEASING.md
+  - CITATION.cff
+  - .zenodo.json
+  - LICENSE

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Email the maintainers
+    url: mailto:ferran.sayol@uvic.cat
+    about: For questions that are not a correction or a missing species

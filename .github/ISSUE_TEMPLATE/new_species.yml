@@ -1,0 +1,32 @@
+name: Missing species
+description: Suggest an extinct bird species that is not yet in AVOTREX
+title: "[New species] "
+labels: ["new species"]
+body:
+  - type: input
+    id: species
+    attributes:
+      label: Species name (or tentative name if undescribed)
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Island / archipelago / region
+    validations:
+      required: true
+  - type: input
+    id: period
+    attributes:
+      label: Approximate period of extinction (or last record)
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference(s)
+      description: Description paper or source reporting the remains or records.
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Any available trait data (measurements, body mass, flight ability)

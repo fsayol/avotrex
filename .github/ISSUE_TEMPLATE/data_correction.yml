@@ -1,0 +1,44 @@
+name: Data correction
+description: Report an error in an existing AVOTREX record
+title: "[Correction] Genus_epithet: "
+labels: ["correction"]
+body:
+  - type: input
+    id: species
+    attributes:
+      label: Species
+      placeholder: e.g. Raphus_cucullatus
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: AVOTREX version
+      placeholder: e.g. 1.0
+  - type: dropdown
+    id: field
+    attributes:
+      label: What is wrong?
+      options:
+        - Taxonomy / name
+        - Extinction status
+        - Island / archipelago / coordinates
+        - Flight ability
+        - Body mass
+        - Morphological measurement
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Current value and proposed correction
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference or specimen information
+      description: Publication (with DOI if possible), or museum and specimen number.
+    validations:
+      required: true

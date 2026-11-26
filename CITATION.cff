@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use AVOTREX, please cite the article below and the dataset version you used."
+title: "AVOTREX: a global dataset of extinct birds and their traits"
+type: dataset
+version: 1.0.0
+license: CC0-1.0
+authors:
+  # TODO: complete with the full author list of the GEB paper
+  - family-names: Sayol
+    given-names: Ferran
+    email: ferran.sayol@uvic.cat
+  - family-names: Wayman
+    given-names: Joseph P.
+  - family-names: Dufour
+    given-names: Pierre
+  - family-names: Martin
+    given-names: Thomas E.
+  - family-names: Hume
+    given-names: Julian P.
+  - family-names: Jørgensen
+    given-names: Maria Wagner
+  - family-names: Faurby
+    given-names: Søren
+  - family-names: Matthews
+    given-names: Thomas J.
+preferred-citation:
+  type: article
+  title: "AVOTREX: A global dataset of extinct birds and their traits"
+  journal: "Global Ecology and Biogeography"
+  volume: 33
+  issue: 12
+  start: e13927
+  year: 2024
+  doi: 10.1111/geb.13927
+  authors:
+    # TODO: same full author list as above
+    - family-names: Sayol
+      given-names: Ferran
+    - family-names: Matthews
+      given-names: Thomas J.
