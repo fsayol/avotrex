@@ -3,7 +3,13 @@ layout: default
 title: AVOTREX
 ---
 
-**AVOTREX** is an open-access database of species traits for all birds known to have gone extinct in the last 130,000 years. Version {{ site.latest_version }} covers **610 extinct species**. For each one it gives taxonomy, geographic location, period of extinction, island endemicity, flight ability, body mass, and external and skeletal morphology, with missing measurements imputed. The companion R package `avotrex` grafts all extinct species onto a global phylogeny of extant birds (BirdTree).
+<p align="center">
+  <img src="{{ '/assets/avotrex_logo.png' | relative_url }}" alt="AVOTREX logo" width="380">
+</p>
+
+**AVOTREX** is an open-access database of species traits for all birds known to have gone extinct in the last 130,000 years. 
+
+Version {{ site.latest_version }} covers **610 extinct species**. For each one it gives taxonomy, geographic location, period of extinction, island endemicity, flight ability, body mass, and external and skeletal morphology, with missing measurements imputed. The companion R package `avotrex` grafts all extinct species onto a global phylogeny of extant birds (BirdTree).
 
 AVOTREX is a living database. New extinct species are added and existing records corrected as new evidence becomes available. Each change is listed in the [changelog]({{ '/changelog/' | relative_url }}).
 

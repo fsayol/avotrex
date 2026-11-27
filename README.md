@@ -2,10 +2,10 @@
 
 This is the public home of the AVOTREX database. 
 
-Avotrex website: **https://OWNER.github.io/avotrex/**.
+Avotrex website: **https://fsayol.github.io/avotrex/**.
 
 AVOTREX gives species traits for all birds known to have gone extinct along humans. 
-We include extinctions from both historical (i.e. post-1500 CE) as well as prehistoric (130,000 years ago until 1500 CE). 
+We include extinctions from both historical (i.e. post-1500 CE) as well as prehistoric (130,000 years ago until 1500 CE). 
 Traits include: taxonomy, geography, island endemicity, flight ability, body mass, and external and skeletal morphology.
 
 ## Data
