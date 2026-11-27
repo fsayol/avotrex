@@ -1,22 +1,24 @@
 # AVOTREX: a global dataset of extinct birds and their traits
 
-This is the public home of the AVOTREX database. Website: **https://OWNER.github.io/avotrex/** (update once the repo exists).
+This is the public home of the AVOTREX database. Website: **https://OWNER.github.io/avotrex/**.
 
-AVOTREX gives species traits for all birds known to have gone extinct in the last 130,000 years: taxonomy, geography, extinction status, island endemicity, flight ability, body mass, and external and skeletal morphology.
+AVOTREX gives species traits for all birds known to have gone extinct along humans. We include extinctions from both historical (i.e. post-1500 CE) as well as prehistoric (130,000 years ago until 1500 CE). Traits include: taxonomy, geography, island endemicity, flight ability, body mass, and external and skeletal morphology.
 
 ## Data
 
 | Version | File | Notes |
 |---|---|---|
-| 1.0 | [`data/v1.0/`](data/v1.0/) | Identical to the Dryad deposit (doi:10.5061/dryad.zgmsbcckk), without the AVONET file |
+| 1.0 | [`data/v1.0/`](data/v1.0/) | First version, also available on a Dryad deposit linked to Sayol et al. 2024 GEB (doi:10.5061/dryad.zgmsbcckk)|
 
 Variable descriptions: [`variables.md`](variables.md). What changed between versions: [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Citation
 
+To cite this database, please cite the original paper: 
+
 Sayol, F., Wayman, J. P., Dufour, P., Martin, T. E., Hume, J. P., Wagner Jørgensen, M., Martínez-Rubio, N., Sanglas, A., Soares, F. C., Cooke, R., Mendenhall, C. D., Margolis, J. R., Illera, J. C., Lemoine, R., Benavides, E., Lapiedra, O., Triantis, K. A., Pigot, A. L., Tobias, J. A., Faurby, S. & Matthews, T. J. (2024). AVOTREX: A global dataset of extinct birds and their traits. *Global Ecology and Biogeography*, 33(12), e13927. https://doi.org/10.1111/geb.13927
 
-Each release from v1.1 onward is archived on Zenodo with its own DOI.
+Each release from v1.1 onward is archived on Zenodo with its own DOI. We reccommend to cite both
 
 ## Related resources
 
@@ -34,7 +36,7 @@ Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). See [`LICEN
 ## Repository structure
 
 ```
-data/vX.Y/        one folder per released version (never edited after release)
+data/vX.Y/        one folder per released version
 index.md          website home page
 species.md        searchable species table
 variables.md      data dictionary
