@@ -27,7 +27,7 @@ Each release from v1.1 onward is archived on Zenodo with its own DOI. We reccomm
 ## Related resources
 
 - Original v1 data on Dryad: https://doi.org/10.5061/dryad.zgmsbcckk
-- `avotrex` R package (phylogenies with extinct species): https://doi.org/10.32614/CRAN.package.avotrex
+- `avotrex` R package (global bird phylogenies with extinct species): https://doi.org/10.32614/CRAN.package.avotrex
 
 ## Report an error
 
